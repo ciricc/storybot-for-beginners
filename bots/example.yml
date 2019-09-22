@@ -1,0 +1,16 @@
+# Конфиг бота - важная часть
+# Основные правила: понимайте структуру и не используйте ТАБЫ (TAB, \t), только пробелы!!
+
+accounts:
+ liza:
+  username: 'liza-iza@gmailinbox.com'
+  password: 'AzaRaLize45067!'
+  reauth: false #Если нужно изменить токен на новый, true, если нет - false
+viewers:
+ viewer_first: #Название просмотрщика (любое, они не используется, нужно только для понимания)
+  account: "liza"
+collector: 
+ tokens: ["liza", "token_1"]
+bot:
+ name: "Bot_1" #Тут настраиваем название бота
+ groupIds: [1,2,3] #Тут настраиваем идентификаторы групп
