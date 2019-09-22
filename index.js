@@ -18,6 +18,11 @@ async function main () {
   botsFiles.forEach(botFile => {
     let botConfig = fs.readFileSync(path.join(BOTS_PATH, botFile), 'utf8');
     botConfig = YAML.parse(botConfig);
+    
+    if (botConfig.bot && !botConfig.bot.name) {
+      botConfig.bot.name = botFile.replace(/\.y(a)?ml/, "");
+    }
+
     botConfigs.push(botConfig);
   })
 
