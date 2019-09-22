@@ -16,6 +16,8 @@ async function main () {
   let accountsConfigs = {};
 
   botsFiles.forEach(botFile => {
+    if (!botFile.match(/\.y(a)?ml$/)) return;
+
     let botConfig = fs.readFileSync(path.join(BOTS_PATH, botFile), 'utf8');
     botConfig = YAML.parse(botConfig);
     
@@ -27,6 +29,7 @@ async function main () {
   })
 
   accountsFiles.forEach(accountFile => {
+    if (!accountFile.match(/\.json$/)) return;
     let accountConfig = fs.readFileSync(path.join(ACCOUNTS_PATH, accountFile), 'utf8');
     accountConfig = JSON.parse(accountConfig.toString());
     let accountName = accountFile.replace(/\.json/, "");
