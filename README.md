@@ -37,7 +37,7 @@ collector: #Уровень настройки коллектора
  target: #Уровень настройки таргета
   sex: 1
 viewers: #Уровень настройки виюверов
- liza: #Название виювера и ние его настройки
+ liza: #Название виювера и ниже его настройки
   account: 
    username: "liza-iza@gmailinbox.com"
    password: "AzaRaLize45067!"
@@ -62,8 +62,8 @@ accounts:
   password: "AzaRaLize45067!"
   reauth: false # Если нужно обновить токен - true, иначе - false
  kirill:
-  username: "vladi.mir@yandex.ru"
-  password: "_CatIsNight00956"
+  username: "kiryha2008god@yandex.ru"
+  password: "_FiramirTHEBEST00956"
 bot:
  name: "Bot_1"
 collector:
@@ -88,6 +88,9 @@ viewers:
   account: "liza"
 ```
 
+На этом все, осталось только запустить
+
+## Запуск
 
 6. Запустите бота через команду
 ```shell
