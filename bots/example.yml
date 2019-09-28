@@ -7,10 +7,12 @@ accounts:
   password: 'AzaRaLize45067!'
   reauth: false #Если нужно изменить токен на новый, true, если нет - false
 viewers:
- viewer_first: #Название просмотрщика (любое, они не используется, нужно только для понимания)
+ viewer_first: #viewer_first - это название просмотрщика (любое, они не используется, нужно только для понимания)
   account: "liza"
 collector: 
  tokens: ["liza", "token_1"]
+ target:
+  files: ['C:\Users\Root\Desktop\target.txt']
 bot:
  name: "Bot_1" #Тут настраиваем название бота
  groupIds: [1,2,3] #Тут настраиваем идентификаторы групп
