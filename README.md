@@ -2,12 +2,12 @@
 
 1. Скачайте данный репозиторий из github (для Windows желательно установить GitBash)
 
-- Для тех, кто понимает что это
+<b>Для тех, кто понимает что это</b>
 ```shell
 git clone https://github.com/ciricc/storybot-for-beginners.git && cd storybot-for-beginners
 ```
 
-Или вот еще способ:
+Или вот еще способ: <br/>
 <img src="https://i.imgur.com/Yva8JEN.png"/>
 
 
