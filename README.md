@@ -14,7 +14,7 @@ git clone https://github.com/ciricc/storybot-for-beginners.git && cd storybot-fo
 2. Установите Node.JS 10 версии <a href="https://nodejs.org">nodejs.org</a>
 3. Откройте командную строку в папке `storybot-for-beginners` (этот шаг можно пропустить, если вы вводили команды из прошлых шагов полностью)
 
-<b>Если вы не совсем понимаете, как это сделать, запустите файл `install.bat` (только Windows)</b>
+<b>Если вы не совсем понимаете, как это сделать, запустите файл `install.bat` (для MAC OS - install.command)</b>
 
 <img src="https://i.imgur.com/Cfd92p5.png" alt="Неоходимо прописать cmd сверху там где путь к папке и нажать Enter"/>
 
@@ -107,7 +107,7 @@ viewers:
 npm run start
 ```
 
-<b>Если вы не знаете как открыть консоль, то запуск делайте через файл `start.bat`</b>
+<b>Если вы не знаете как открыть консоль, то запуск делайте через файл `start.bat` (для MAC OS - start.command)</b>
 
 
 <i>Чтобы остановить бота, можно закрыть окно консоли или нажать сочетание `Ctrl + C`</i>
