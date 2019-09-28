@@ -1,17 +1,26 @@
 # Запуска storybot для начинающих ~~программистов~~
 
 1. Скачайте данный репозиторий из github (для Windows желательно установить GitBash)
+
+- Для тех, кто понимает что это
 ```shell
 git clone https://github.com/ciricc/storybot-for-beginners.git && cd storybot-for-beginners
 ```
+
+Или вот еще способ:
+<img src="https://i.imgur.com/Yva8JEN.png"/>
+
+
 2. Установите Node.JS 10 версии <a href="https://nodejs.org">nodejs.org</a>
 3. Откройте командную строку в папке `storybot-for-beginners` (этот шаг можно пропустить, если вы вводили команды из прошлых шагов полностью)
 <img src="https://raw.github.com/ciricc/storybot-for-beginners/master/cmd.png" alt="Неоходимо прописать cmd сверху там где путь к папке и нажать Enter"/>
-4. Введите команду
 
+4. Введите команду
 ```shell
 npm i
 ```
+
+<b>Если вы не совсем понимаете, как это сделать, запустите файл `install.bat` (только Windows)</b>
 
 5. Настройте бота по собственным нуждам следуя инструкциям из документации <a href="https://www.npmjs.com/package/storybot">storybot</a>
 Об этом ниже
@@ -96,6 +105,9 @@ viewers:
 ```shell
 npm run start
 ```
+
+<b>Если вы не знаете как открыть консоль, то запуск делайте через файл `start.bat`</b>
+
 
 <i>Чтобы остановить бота, можно закрыть окно консоли или нажать сочетание `Ctrl + C`</i>
 
