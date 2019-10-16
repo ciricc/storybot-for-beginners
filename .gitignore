@@ -63,3 +63,5 @@ typings/
 .next
 *.db
 package-lock.json
+
+myconfig.yml
