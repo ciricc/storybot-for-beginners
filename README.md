@@ -16,7 +16,7 @@ git clone https://github.com/ciricc/storybot-for-beginners.git && cd storybot-fo
 Для того, чтобы все прошло гладко, сначала скачайте и установите <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48159">Windows Build Tools</a>. После чего перезагрузите компьютер
 
 Затем, после перезагрузки, откройте консоль от имени администратора
-<img src="https://i.imgur.com/BpfEskJ.png" alt="Введите в поиске cmd и кликните по приложению правой кнопкой мыши">
+<img src="https://imgur.com/sVI6wQQ.png" alt="Введите в поиске cmd и кликните по приложению правой кнопкой мыши">
 
 Введите команду и дождитесь полного завершения
 
