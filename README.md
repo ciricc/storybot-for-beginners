@@ -12,18 +12,35 @@ git clone https://github.com/ciricc/storybot-for-beginners.git && cd storybot-fo
 
 
 2. Установите Node.JS 10 версии <a href="https://nodejs.org">nodejs.org</a>
+### 2.1 Для пользователей Windows
+Для того, чтобы все прошло гладко, сначала скачайте и установите <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48159">Windows Build Tools</a>. После чего перезагрузите компьютер
+
+Затем, после перезагрузки, откройте консоль от имени администратора
+<img src="https://imgur.com/BpfEskJ" alt="Введите в поиске cmd и кликните по приложению правой кнопкой мыши">
+
+Введите команду и дождитесь полного завершения
+
+```shell
+npm install --global windows-build-tools@4.0.0
+```
+
+После установки продолжайте читать мануал ...
+
 3. Откройте командную строку в папке `storybot-for-beginners` (этот шаг можно пропустить, если вы вводили команды из прошлых шагов полностью)
 
 <b>Если вы не совсем понимаете, как это сделать, запустите файл `install.bat` (для MAC OS - install.command)</b>
 
-<img src="https://i.imgur.com/Cfd92p5.png" alt="Неоходимо прописать cmd сверху там где путь к папке и нажать Enter"/>
+<img src="https://i.imgur.com/Cfd92p5.png" alt="Необходимо прописать cmd сверху там где путь к папке и нажать Enter"/>
 
 4. Введите команду
 ```shell
 npm i
 ```
 
+<b>Если вы не совсем понимаете, как это сделать, запустите файл `install.bat` (для MAC OS - install.command)</b>
+
 5. Настройте бота по собственным нуждам следуя инструкциям из документации <a href="https://www.npmjs.com/package/storybot">storybot</a>
+
 Об этом ниже
 
 
